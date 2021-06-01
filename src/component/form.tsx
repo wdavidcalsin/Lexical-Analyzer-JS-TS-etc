@@ -1,4 +1,4 @@
-import { Lexer, Group, Rule } from "@jlguenego/lexer";
+import { Lexer } from "@jlguenego/lexer";
 import { useEffect, useState } from "react";
 
 import {
