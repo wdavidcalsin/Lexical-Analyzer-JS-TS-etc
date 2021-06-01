@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  padding: 5rem 0;
+}
+
+.form {
+  width: 100%;
+}
+
+.form textarea {
+  width: 20rem;
+  height: 10rem;
+  font-size: 1.5rem;
+}
+
+.form button {
+  border: 2px solid rgb(0, 94, 255);
+  background: white;
+  color: rgb(0, 94, 255);
+  font-size: 1.5rem;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+}
+
+.tokenSequence {
+  text-align: left;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  width: 50rem;
+  margin: auto;
 }
