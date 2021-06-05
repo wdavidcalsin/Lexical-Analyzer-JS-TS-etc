@@ -10,7 +10,7 @@ import {
 } from "../utils/rules";
 
 const Form = () => {
-  const [val, setVal] = useState("");
+  const [val, setVal] = useState("var age = 18;");
   const [valToken, setValToken] = useState({});
 
   const handleChange = (event: any) => {
